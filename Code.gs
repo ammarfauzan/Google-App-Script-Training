@@ -1,3 +1,5 @@
+// This Function to add menu in navbar Names HR Dept
+
 function onOpen() {
   const ui = SpreadsheetApp.getUi();
   ui.createMenu('HR Dept') // You can name your custom menu anything
