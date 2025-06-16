@@ -4,7 +4,7 @@ function onOpen() {
   const ui = SpreadsheetApp.getUi();
   ui.createMenu('HR Dept') // You can name your custom menu anything
       .addItem('Header Formatting', 'ownHeaderFormatting')
-      .addItem('Send Email Attandence Data')
+      .addItem('Send Email Attandence Data', 'exportSheetAsCsvAndEmail')
       .addToUi();
 }
 
